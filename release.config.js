@@ -1,6 +1,6 @@
 module.exports = {
   branch: 'master',
-  repositoryUrl: 'https://github.com/saltstack-formulas/template-formula',
+  repositoryUrl: 'https://github.com/saltstack-formulas/samba-ad-formula',
   plugins: [
       ['@semantic-release/commit-analyzer', {
         preset: 'angular',
