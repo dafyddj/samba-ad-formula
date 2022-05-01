@@ -298,8 +298,8 @@ suites:
       state_top:
         base:
           '*':
-            - samba-ad._mapdata
-            - samba-ad
+            # - samba-ad._mapdata
+            - samba-ad.dc
     verifier:
       inspec_tests:
         - path: test/integration/default
